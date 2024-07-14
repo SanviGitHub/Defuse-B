@@ -33,9 +33,19 @@
 
     <section id="noticias">
         <h2>Noticias</h2>
-        <p>  Torneo De Damas 2024 |  Fecha: 21 de Julio, 2024 </p>
+        <div id="stream-status">
+            <label for="stream-toggle">¿Quieres ver a DEFUSE-B en directo?</label>
+            <select id="stream-toggle">
+                <option value="no">No</option>
+                <option value="si">Sí</option>
+            </select>
+            <div id="stream-link" style="display: none;">
+                <button id="live-link" class="live-button">¡DEFUSE-B está en directo! Haz clic aquí para ver.</button>
+            </div>
+        </div>
+        <p>Torneo De Damas 2024 | Fecha: 21 de Julio, 2024</p>
     </section>
-
+    
     <section id="miembros">
         <h2>Miembros</h2>
         <p>Conoce a los miembros destacados de nuestra comunidad.</p>
